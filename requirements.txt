@@ -1,0 +1,8 @@
+pillow==10.2.0
+Django==4.2.10
+djoser==2.2.2
+django-environ
+django-cors-headers
+djangorestframework-camel-case
+channels==4.0.0
+channels-redis==4.2.0

@@ -1,0 +1,27 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "flake8.args": [
+    "--max-line-length=128",
+    "--ignore=E501",
+    "--exclude=model.py .venv/* *.pyc"
+  ],
+  "autopep8.args": [
+    "--max-line-length=128",
+    "--ignore=E501",
+    "--exclude=model.py .venv/* *.pyc"
+  ],
+  "isort.args": ["--profile=black"],
+  "files.insertFinalNewline": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.prettier": "explicit"
+  },
+  "eslint.run": "onSave",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
+}
